@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+body{
+    margin-top: 10rem;
+    width: 100%;
+}
+
+nav{
+    top: 0;
+    left: 0;
+    padding: 10px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    margin: 0.5rem;
+    font-size: 16px;
+    
+}
+
+
+
+.about-me{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 3rem;
+    width: 100%;
+    height: auto;
+
+    background-color: blue;
+
+
+}
+
+.about-me img{
+    height: auto;
+    width: 25%;
+
+    max-height: 300px;
+    max-width: 300px;
+
+    border-radius: 50%;
+    min-width: 150px;
+    min-height: 150px;
+    box-shadow: 2px 2px 5px rgb(26, 26, 26);
+}
+
+
+.text-box{
+    margin: 4rem 1rem 4rem 1rem;
+    width: 50%;
+    min-width: 12rem;
+    max-height: 9.4rem;
+    max-width: 18rem;
+    height: 10rem;
+
+
+    padding: 1rem;
+    background-color: white;
+
+    box-shadow: 5px 5px #9fccff;
+    font-size: 1.5rem;
+    line-height: 105%;
+    
+}
+
+
+
+.about-me-title{
+    position:absolute;
+    top: 11.5rem;
+    color: white;
+    font-size: 35px;
+}
+
+#job-title{
+    font-size: 1.2rem;
+    color: rgb(97, 0, 189);
+}
+
+.text-box h2{
+    font-size: 1.2rem;
+}
+
+
+.work-in-progress{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(117, 0, 0);
+    font-size: 40px;
+
+}
