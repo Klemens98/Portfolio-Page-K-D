@@ -1,141 +1,163 @@
-*{
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    font-size: 20px;
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
 }
 
-header{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
-    padding: 1rem;
+a:link {
+  text-decoration: none;
 }
 
-header h1{
-    font-size: 1.3rem;
+a:visited {
+  text-decoration: none;
+  color: white;
 }
 
-body{
-    margin-top: 5rem;
-    width: 100%;
+a:hover {
+  text-decoration: underline;
 }
 
-nav{
-    top: 0;
-    left: 0;
-    padding: 10px;
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
+a:active {
+  text-decoration: none;
 }
 
-nav a{
-    margin: 0.5rem;
-    font-size: 16px;
-    
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
 }
 
-
-
-.about-me{
-    padding: 3rem;
-    width: 100%;
-    height: auto;
-    background-color: blue;
+header h1 {
+  font-size: 1.5rem;
 }
 
-
-.about-me-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 3rem;
-    margin: 1rem 0rem 1rem 0;
+body {
+  margin-top: 5rem;
+  width: 100%;
 }
 
-.about-me img{
-    height: auto;
-    width: 25%;
-
-    max-height: 300px;
-    max-width: 300px;
-
-    border-radius: 50%;
-    min-width: 150px;
-    min-height: 150px;
-    box-shadow: 2px 2px 5px rgb(26, 26, 26);
+nav {
+  top: 0;
+  left: 0;
+  padding: 10px;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
-.about-me-container{
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: space-evenly;
-    align-items: center;
+nav a {
+  margin: 0.5rem;
+  font-size: 16px;
 }
 
-.text-box{
-    margin: 4rem 1rem 4rem 1rem;
-    width: 50%;
-    min-width: 15rem;
-    max-height: 9.4rem;
-    max-width: 18rem;
-    height: auto;
-    overflow: scroll;
-
-
-    padding: 1rem;
-    background-color: white;
-
-    box-shadow: 5px 5px #9fccff;
-    font-size: 1.5rem;
-    line-height: 105%;
-    
+.about-me {
+  padding: 3rem;
+  width: 100%;
+  height: auto;
+  background-color: #0000ff;
 }
 
-
-
-.about-me-title{
-    color: white;
-    font-size: 35px;
+.about-me-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  margin: 1rem 0rem 1rem 0;
 }
 
-#job-title{
-    font-size: 1.2rem;
-    color: rgb(97, 0, 189);
+.about-me img {
+  height: auto;
+  width: 25%;
+
+  max-height: 300px;
+  max-width: 300px;
+
+  border-radius: 50%;
+  min-width: 150px;
+  min-height: 150px;
+  box-shadow: 2px 2px 5px rgb(26, 26, 26);
 }
 
-.text-box h2{
-    font-size: 1.2rem;
+.about-me-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
+.text-box {
+  margin: 4rem 1rem 4rem 1rem;
+  width: 50%;
+  min-width: 15rem;
+  max-height: 9.4rem;
+  max-width: 18rem;
+  height: auto;
+  overflow: scroll;
 
-.work-in-progress{
-    margin-top: 4rem;
-    display: flex;
-    justify-content: center;
-    color: rgb(117, 0, 0);
-    font-size: 40px;
+  padding: 1rem;
+  background-color: white;
 
+  box-shadow: 5px 5px #9fccff;
+  font-size: 1.5rem;
+  line-height: 105%;
 }
 
-.skills-section{
-    height: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.about-me-title {
+  color: white;
+  font-size: 35px;
 }
 
-.skills-section h2{
-    background-color: darkblue;
-    color: white;
-    height: auto;
-    width: 4rem;
-    text-align: center;
+#job-title {
+  font-size: 1.2rem;
+  color: rgb(97, 0, 189);
+}
+
+.text-box h2 {
+  font-size: 1.2rem;
+}
+
+#work-in-progress {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding: 1rem 1rem 1rem 1rem;
+  color: rgb(117, 0, 0);
+  font-size: 2rem;
+}
+
+.skills-section {
+  background-color: #30b309;
+  height: 20rem;
+}
+
+.skills-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-header h2 {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 8rem;
+  height: 4rem;
+}
+
+.skills-list {
+  background-color: #24660f;
+  padding: 10% 10% 10% 10%;
+}
+
+.skills-list ul {
+  text-decoration: none;
 }
