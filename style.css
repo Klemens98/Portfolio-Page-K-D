@@ -8,6 +8,7 @@
 
 a:link {
   text-decoration: none;
+  color: white;
 }
 
 a:visited {
@@ -125,6 +126,8 @@ nav a {
 }
 
 #work-in-progress {
+  display: flex;
+  justify-content: center;
   margin-top: 4rem;
   margin-bottom: 4rem;
   padding: 1rem 1rem 1rem 1rem;
@@ -133,8 +136,8 @@ nav a {
 }
 
 .skills-section {
-  background-color: #30b309;
-  height: 20rem;
+  background-color: #0000ff;
+  height: 25rem;
 }
 
 .skills-header {
@@ -148,14 +151,17 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #ff6819;
   width: 8rem;
   height: 4rem;
 }
 
 .skills-list {
-  background-color: #24660f;
-  padding: 10% 10% 10% 10%;
+  background-color: #0d8cff;
+  padding: 2rem 2rem 2rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills-list ul {
